@@ -1,6 +1,6 @@
-# Curso Laravel 5.3 + Vue.JS
+# Curso Laravel 5 + Vue.JS
 
-Link do [Curso Laravel 5.3 + VueJS](http://sites.code.education/laravel-com-vuejs/)
+Link do [Curso Laravel 5 + VueJS](http://sites.code.education/laravel-com-vuejs/)
 
 ### Requisitos
 
@@ -13,7 +13,7 @@ No seu arquivo `homestead.yaml` configure:
 
 ```
 sites:
-    - map: laravue53.app 
+    - map: laravue63.app 
       to: /home/vagrant/Code/Cursos/vue-laravel/public
       
 ports:
@@ -42,16 +42,3 @@ Configure seu arquivo `.env` com suas configurações de banco de dados e execut
 ```
 vagrant@homestead:~/Code/Cursos/vue-laravel$ php artisan migrate
 ```
-
-
-Configure seu arquivo de hosts para apontar para o endereço `http://laravue53.app`
-
-```
-192.168.10.10    laravue53.app
-```
-
-No seu navegador, aponte para [http://laravue53.app](http://laravue53.app)
-
-### Licença
-
-OpenSource under [MIT License](https://tldrlegal.com/license/mit-license)
